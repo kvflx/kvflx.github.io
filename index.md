@@ -5,7 +5,7 @@
 ### Check out some of my projects!
 
 #### [DoorDash Data Analysis: Hungry for Data](https://www.linkedin.com/pulse/hungry-data-its-way-kevin-felix-shttc/)
-[<img src="images/Twitter header - 1 (5).png?raw=true"/>](https://www.linkedin.com/pulse/hungry-data-its-way-kevin-felix-shttc/)
+[<img src="images/Twitter header - 1 (2).png?raw=true"/>](https://www.linkedin.com/pulse/hungry-data-its-way-kevin-felix-shttc/)
 For this project, I explored a food delivery app's dataset and found interesting insights about customer spending behaviors.
 
 ---
