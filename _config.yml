@@ -3,7 +3,7 @@ logo: "/images/image.jpeg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Data-driven professional making data digestible. <br><br>
   Rubik's cube solver, cat lover, and fan of anything DC Comics!  <br><br>
-  <a href="https://www.linkedin.com/in/kevinfelixleyva/">View My LinkedIn Profile</a>
+  <a href="https://www.linkedin.com/in/kevinfelixleyva/">View My LinkedIn Profile</a> <br><br>
   <a href="https://github.com/kvflx/Kevin-SQL">SQL Portfolio</a>
   
 theme: jekyll-theme-minimal
