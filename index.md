@@ -5,8 +5,8 @@
 ### Check out some of my projects!
 
 #### [DoorDash Data Analysis: Hungry for Data](https://www.linkedin.com/pulse/hungry-data-its-way-kevin-felix-shttc/)
-[<img src="images/21 Days To Data Challenge What I've Learned Cover.png?raw=true"/>](https://www.linkedin.com/pulse/what-i-learned-21-days-data-avery-smith)
-My final write up for Avery Smith's 21 Days To Data project covering New York City crime data. 
+[<img src="images/Twitter header - 1 (5).png?raw=true"/>](https://www.linkedin.com/pulse/hungry-data-its-way-kevin-felix-shttc/)
+For this project, I explored a food delivery app's dataset and found interesting insights about customer spending behaviors.
 
 ---
 #### [Linked File Project](/files/Day 12 - 21 days to data.pdf)
