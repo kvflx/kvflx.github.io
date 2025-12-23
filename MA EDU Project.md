@@ -35,12 +35,14 @@ While I found no correlation between class size and college attendance, I did fi
 As can be seen in the scatterplot above, there is an strong negative correlation between the two variables. Schools with **less economically disadvantaged students tend to have a higher percentage of students attending college.** On the contrary, schools with a **higher population of economically disadvantaged students tend to have a lower percentage of students in college.**
 
 Although the strong trend between those variables exists, there are some schools that are outliers. When filtering for the top 10 schools with an average of at least 50% economically disadvantaged students and an average of at least 75% students attending college, we see the following:
-<img src="/images/% eco disadvantge and % attend colleg.PNG?raw=true"/>
+<img src="/images/% eco disadvantge and % attend colleg.png?raw=true"/>
 
 Identifying these schools could be incredibly useful for the district, as they can further investigate how these standout schools operate and learn from their success to help inform strategies that can be used at other schools. This knowledge could be help other schools with high percentages of economically disadvantaged students increase their college attendance percentages.
 ## Low Performance Schools
 The Commissioner of Education wants to be aware of the schools that struggled the most in 2017, specifically by finding the schools with the lowest graduation percentages.
+
 <img src="/images/low grad percent bar graph.PNG?raw=true"/>
+
 In the bar graph above, we can see that there are 11 schools with a graduation percentage of 20% or less. Interestingly, the majority of the schools that fall under this category are alternative schools that serve different groups of students with varying needs. 
 
 Going a bit further, I was curious about the amount of charter schools vs public schools that fell into the low graduation percentage group. As seen in the the graph below, **81% of the schools with a graduation percentage of 20% or below are public schools.**
@@ -49,8 +51,11 @@ Even though these schools with low graduation percentages are all alternative sc
 <img src="/images/low percent grad charter vs public.PNG?raw=true"/>
 
 ## Math Proficiency: 4th Grade Math Scores
-According to the Massachusetts Commissioner of Education, 4th grade math scores are a key indicator of a student’s future success in the subject. The scores within the dataset are reflective of the grading structure established by the The Massachusetts Comprehensive Assessment System (MCAS) that categorizes students (grades 3-8) according to the following levels: Proficient (P), Advanced (A), Needs Improvement (I), and Warning (W). For the sake of this analysis, the focus is on a grouping of P+A (scores of at least 50%).
+According to the Massachusetts Commissioner of Education, 4th grade math scores are a key indicator of a student’s future success in the subject. The scores within the dataset are reflective of the grading structure established by the The Massachusetts Comprehensive Assessment System (MCAS) that categorizes students (grades 3-8) according to the following levels: Proficient (P), Advanced (A), Needs Improvement (I), and Warning (W). 
+
+For the sake of this analysis, the focus is on a grouping of P+A (scores of at least 50%).
 <img src="/images/College Class Size.jpg?raw=true"/>
+
 Because these schools have "beat the odds" and stand out from the rest of the data, further investigation of their methods and practices may lead to helpful insights for other schools. 
 
 ## 4th Grade Math Scores
