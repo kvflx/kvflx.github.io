@@ -56,15 +56,18 @@ Even though these schools with low graduation percentages are all alternative sc
 According to the Massachusetts Commissioner of Education, 4th grade math scores are a key indicator of a student’s future success in the subject. The scores within the dataset are reflective of the grading structure established by the The Massachusetts Comprehensive Assessment System (MCAS) that categorizes students (grades 3-8) according to the following levels: Proficient (P), Advanced (A), Needs Improvement (I), and Warning (W). 
 
 For the sake of this analysis, the focus is on a grouping of P+A (scores of at least 50%).
+
 <img src="/images/College Class Size.jpg?raw=true"/>
 
 Because these schools have "beat the odds" and stand out from the rest of the data, further investigation of their methods and practices may lead to helpful insights for other schools. 
 
 ## 4th Grade Math Scores
 The Secretary of Education also believes that 4th grade math scores are a key indicator of students' future success. The Massachusetts Comprehensive Assessment System has four achievement levels to categorize student test results: Advanced (A), Proficient (P), Needs Improvement (I), and Warning (W) for grades 3-8. A and P are considered passing scores, above a 50%. 
+
 <img src="/images/final math scores.PNG?raw=true"/>
 
 Given the quantity of districts within the dataset, it was important to present the information in a way that is easily digestible. I opted to use an area chart, along with an established parameter that allows stakeholders to quickly visualize what districts fall within which group (Meets Passing Threshold vs Needs Improvement). 
+
 <img src="/images/data separation.PNG?raw=true"/>
 
 I found that approximately **25% of the districts are below the 50% average score threshold** while approximately **75% of districts are at or above the threshold.** Seeing the high quantity of districts that are above threshold is an indicator that the majority of Massachusetts districts are preparing students adequately for a successful future in the subject of math. 
