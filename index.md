@@ -4,7 +4,7 @@
 
 ### Check out some of my projects!
 
-### [Massachusetts Education Data Analysis](/MA EDU Project)
+#### [Massachusetts Education Data Analysis](/MA EDU Project)
 <img src="images/MA Education Project.png?raw=true"/>
 This project focused on using Tableau to analyze and visualize data from the Massachussetts Department of Education. Take a look at my findings! 
 
