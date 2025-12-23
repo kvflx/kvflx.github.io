@@ -35,7 +35,7 @@ While I found no correlation between class size and college attendance, I did fi
 As can be seen in the scatterplot above, there is an strong negative correlation between the two variables. Schools with **less economically disadvantaged students tend to have a higher percentage of students attending college.** On the contrary, schools with a **higher population of economically disadvantaged students tend to have a lower percentage of students in college.**
 
 Although the strong trend between those variables exists, there are some schools that are outliers. When filtering for the top 10 schools with an average of at least 50% economically disadvantaged students and an average of at least 75% students attending college, we see the following:
-<img src="/images/% eco disadvantge and % attend colleg.png?raw=true"/>
+<img src="/images/% eco disadvantge and % attend colleg.PNG?raw=true"/>
 
 Identifying these schools could be incredibly useful for the district, as they can further investigate how these standout schools operate and learn from their success to help inform strategies that can be used at other schools. This knowledge could be help other schools with high percentages of economically disadvantaged students increase their college attendance percentages.
 ## Low Performance Schools
