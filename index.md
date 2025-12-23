@@ -4,15 +4,14 @@
 
 ### Check out some of my projects!
 
+### [Massachusetts Education Data Analysis](/MA EDU Project)
+<img src="images/MA Education Project.png?raw=true"/>
+This project focused on using Tableau to analyze and visualize data from the Massachussetts Department of Education. Take a look at my findings! 
+
+---
 #### [DoorDash Data Analysis: Hungry for Data](https://www.linkedin.com/pulse/hungry-data-its-way-kevin-felix-shttc/)
 [<img src="images/Twitter header - 1 (2).png?raw=true"/>](https://www.linkedin.com/pulse/hungry-data-its-way-kevin-felix-shttc/)
 For this project, I explored a food delivery app's dataset and found interesting insights about customer spending behaviors.
-
----
-#### [Linked File Project](/files/Day 12 - 21 days to data.pdf)
-<img src="images/21 Days To Data Challenge.png?raw=true"/>
-For this project, I explored what a good analytics PowerPoint presentation should entail. It talks about main talking points, how to tie data to the business value, and much more. 
-
 ---
 #### [Internal Blog Post Project](/bank)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
