@@ -49,6 +49,7 @@ In the bar graph above, we can see that there are 11 schools with a graduation p
 Going a bit further, I was curious about the amount of charter schools vs public schools that fell into the low graduation percentage group. As seen in the the graph below, **81% of the schools with a graduation percentage of 20% or below are public schools.**
 
 Even though these schools with low graduation percentages are all alternative schools, these findings could point the Massachusetts Department of Education in the right direction when it comes to assessing curriculums and teaching styles throughout the various schools.
+
 <img src="/images/low percent grad charter vs public.PNG?raw=true"/>
 
 ## Math Proficiency: 4th Grade Math Scores
