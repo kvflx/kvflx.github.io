@@ -22,14 +22,14 @@ The following data was pulled from reports done by the Massachusetts Department 
 ### Key Insights
 - While **83%** of students in Massachusetts graduated high school, the lowest performing schools had graduation rates of **20% and below.**
 - The majority of students in Massachusetts are well prepared to succeed in Math subjects, with around **74% of 4th graders achieving Proficient (P) or Advanced (A) scores.**
-- On average, about 75% of students attended college in Massachusetts regardless of class size. While class size does not have a direct impact, there is a **correlation between college attendance and economic disadvantage.**
+- On average, about **75% of students attended college in Massachusetts regardless of class size.** While class size does not have a direct impact, there is a **correlation between college attendance and economic disadvantage.**
 
 # The Analysis
 
 ## Does class size affect college attendance?
 As part of this analysis, the Commissioner of Education wants to find whether there is a connection between class size and the percentage of students attending college. Based on the data from this Massachusetts Education report, the two do not have a correlation.
 
-<img src="/images/FINAL COLLEGE VS CLASS SIZE.png?raw=true"/>
+<img src="/images/FINAL COLLEGE VS CLASS SIZE.PNG?raw=true"/>
 
 While I found no correlation between class size and college attendance, I did find that there is a direct correlation between economic disadvantage and college attendance. 
 As can be seen in the scatterplot above, there is an strong negative correlation between the two variables. Schools with **less economically disadvantaged students tend to have a higher percentage of students attending college.** On the contrary, schools with a **higher population of economically disadvantaged students tend to have a lower percentage of students in college.**
