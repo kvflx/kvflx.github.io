@@ -53,16 +53,7 @@ Even though these schools with low graduation percentages are all alternative sc
 <img src="/images/low percent grad charter vs public.PNG?raw=true"/>
 
 ## Math Proficiency: 4th Grade Math Scores
-According to the Massachusetts Commissioner of Education, 4th grade math scores are a key indicator of a student’s future success in the subject. The scores within the dataset are reflective of the grading structure established by the The Massachusetts Comprehensive Assessment System (MCAS) that categorizes students (grades 3-8) according to the following levels: Proficient (P), Advanced (A), Needs Improvement (I), and Warning (W). 
-
-For the sake of this analysis, the focus is on a grouping of P+A (scores of at least 50%).
-
-<img src="/images/College Class Size.jpg?raw=true"/>
-
-Because these schools have "beat the odds" and stand out from the rest of the data, further investigation of their methods and practices may lead to helpful insights for other schools. 
-
-## 4th Grade Math Scores
-The Secretary of Education also believes that 4th grade math scores are a key indicator of students' future success. The Massachusetts Comprehensive Assessment System has four achievement levels to categorize student test results: Advanced (A), Proficient (P), Needs Improvement (I), and Warning (W) for grades 3-8. A and P are considered passing scores, above a 50%. 
+According to the Massachusetts Commissioner of Education, 4th grade math scores are a key indicator of a student’s future success in the subject. The scores within the dataset are reflective of the grading structure established by the The Massachusetts Comprehensive Assessment System (MCAS) that categorizes students (grades 3-8) according to the following levels: Proficient (P), Advanced (A), Needs Improvement (I), and Warning (W). For the sake of this analysis, the focus is on a grouping of P+A (scores of at least 50%).
 
 <img src="/images/final math scores.PNG?raw=true"/>
 
