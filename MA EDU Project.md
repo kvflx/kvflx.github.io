@@ -48,9 +48,9 @@ In the bar graph above, we can see that there are 11 schools with a graduation p
 
 Going a bit further, I was curious about the amount of charter schools vs public schools that fell into the low graduation percentage group. As seen in the the graph below, **81% of the schools with a graduation percentage of 20% or below are public schools.**
 
-Even though these schools with low graduation percentages are all alternative schools, these findings could point the Massachusetts Department of Education in the right direction when it comes to assessing curriculums and teaching styles throughout the various schools.
-
 <img src="/images/low percent grad charter vs public.PNG?raw=true"/>
+
+Even though these schools with low graduation percentages are all alternative schools, these findings could point the Massachusetts Department of Education in the right direction when it comes to assessing curriculums and teaching styles throughout the various schools.
 
 ## Math Proficiency: 4th Grade Math Scores
 According to the Massachusetts Commissioner of Education, 4th grade math scores are a key indicator of a student’s future success in the subject. The scores within the dataset are reflective of the grading structure established by the The Massachusetts Comprehensive Assessment System (MCAS) that categorizes students (grades 3-8) according to the following levels: Proficient (P), Advanced (A), Needs Improvement (I), and Warning (W). For the sake of this analysis, the focus is on a grouping of P+A (scores of at least 50%).
