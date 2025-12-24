@@ -76,6 +76,8 @@ In this case, the two extremes are represented by a traditional school district 
 # Closing Thoughts
 Below is a static version of the Tableau dashboard I created where I compiled all of the visualizations seen throughout this analysis. For an interactive version, click [**this**](https://public.tableau.com/app/profile/kevin.felix/viz/MassachusettsEducationOverview_17659505198360/Dashboard1?publish=yes) link! 
 
+<img src="/images/static dashboard.PNG?raw=true"/>
+
 Thank you for reading through my project, I appreciate you! I am actively working on projects and am always grateful for any feedback I can get as I progress throughout my data career.
 
 Feel free to connect with me on [LinkedIn](linkedin.com/in/kevinfelixleyva) with any questions or if you want to chat. 
