@@ -38,7 +38,7 @@ Although the strong trend between those variables exists, there are some schools
 
 <img src="/images/disadvantage vs college.PNG?raw=true"/>
 
-Identifying these schools could be incredibly useful for the district, as they can further investigate how these standout schools operate and learn from their success to help inform strategies that can be used at other schools. This knowledge could be help other schools with high percentages of economically disadvantaged students increase their college attendance percentages.
+Identifying these schools could be incredibly useful for the district, as they can further investigate how these standout schools operate and learn from their success to help inform strategies that can be used at other schools. This knowledge could help other schools with high percentages of economically disadvantaged students increase their college attendance percentages.
 ## Low Performance Schools
 The Commissioner of Education wants to be aware of the schools that struggled the most in 2017, specifically by finding the schools with the lowest graduation percentages.
 
