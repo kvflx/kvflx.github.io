@@ -31,7 +31,7 @@ As part of this analysis, the Commissioner of Education wants to find whether th
 
 <img src="/images/FINAL COLLEGE VS CLASS SIZE.PNG?raw=true"/>
 
-While I found a weak relationship between class size and college attendance, I did find that there is a direct correlation between economic disadvantage and college attendance. 
+While I found a weak relationship between class size and college attendance, I did find that there is a notable relationship between economic disadvantage and college attendance. 
 Represented by shades of dark blue (lower college attendance) and light blue (higher college attendance) in the scatterplot above, there is a strong negative correlation between the two variables. Schools with **less economically disadvantaged students tend to have a higher percentage of students attending college.** On the contrary, schools with a **higher population of economically disadvantaged students tend to have a lower percentage of students in college.**
 
 Although the strong trend between those variables exists, there are some schools that are outliers. When filtering for the top 10 schools with an average of at least 50% economically disadvantaged students and an average of at least 75% students attending college, we see the following:
