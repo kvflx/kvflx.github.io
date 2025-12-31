@@ -4,7 +4,7 @@
 
 ### Check out some of my projects!
 
-#### [The Details Behind Hospital Stays: Healthcare SQL Analysis](https://www.linkedin.com/pulse/hungry-data-its-way-kevin-felix-shttc/)
+#### [The Details Behind Hospital Stays: Healthcare SQL Analysis](https://www.linkedin.com/pulse/details-behind-hospital-stays-healthcare-sql-analysis-kevin-felix-jaadc/)
 <img src="images/hospital sql project header (3).png?raw=true"/>
 Using MySQL, I did some querying to answer important questions regarding patient demographics, stay durations, medical specialties, and more. Check out what I found!
 
