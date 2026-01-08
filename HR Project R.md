@@ -4,17 +4,14 @@
 
 ## Intro
 
-It is important for companies to practice equality when hiring employees. This aspect is also important when it comes to letting employees go, and individuals should not be let go from a company for factors such as age. Using statistics along with linear and logistic regression in R, I found some answers to important questions regarding the relationship between age and other factors in regards to attrition. 
+Attrition is something that all companies experience and while the reasons for it can vary, it is important that those reasons aren't ever related to inequality or discrimination in the workplace. Unfortunately, sometimes it can be unclear whether those aspects are at play, and that is where looking at the numbers can be useful. In this project I analyzed an HR Dataset from IBM to find whether relationships exist between attrition and various factors such as age, experience, and more.
 
-I analyzed t
+Using statistics along with linear and logistic regression in R, I found some answers to important questions regarding these relationships: 
 
-
-Using Tableau, I analyzed and visualized data from various schools and districts throughout the Massachusetts area. The focus of the project was finding answers to the following questions made by the Commissioner of Education for the State:
-
-- How does class size affect college admission?
-- What are the top math schools in the state?
-- What schools are struggling the most?
-- What percentage of students are currently attending college?
+- Do older employees get let go more than younger employees?
+- Are Junior employees more likely to be laid off Senior employees?
+- Does job stagnation affect turnover rates?
+- How does worklife balance affect employee length of stay?
 
 ## aksnjdksajdkasjdkjas
 
