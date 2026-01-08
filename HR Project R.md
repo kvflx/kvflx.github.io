@@ -4,7 +4,7 @@
 
 ## Intro
 
-Attrition is something that all companies experience and while the reasons for it can vary, it is important that those reasons aren't ever related to inequality or discrimination in the workplace. Unfortunately, sometimes it can be unclear whether those aspects are at play, and that is where looking at the numbers can be useful. In this project I analyzed an HR Dataset from IBM to find whether relationships exist between attrition and various factors such as age, experience, and more.
+Attrition is something that all companies experience and while the reasons for it can vary, it is important that those reasons aren't ever related to inequality or discrimination in the workplace. Unfortunately, sometimes it can be unclear whether those aspects are at play, and that is where looking at the numbers can be useful. In this project I analyzed an HR Dataset from IBM to find whether relationships exist between attrition and various factors such as age, experience, and more. (Original Data Found Here) --HYPERLINK THIS
 
 Using statistics along with linear and logistic regression in R, I found some answers to important questions regarding these relationships: 
 
@@ -13,15 +13,12 @@ Using statistics along with linear and logistic regression in R, I found some an
 - Does job stagnation affect turnover rates?
 - How does worklife balance affect employee length of stay?
 
-## aksnjdksajdkasjdkjas
+## Data Analysis
 
-The following data was pulled from reports done by the Massachusetts Department of Education in 2017. [**Here**](https://www.kaggle.com/datasets/ndalziel/massachusetts-public-schools-data?select=MA_Public_Schools_datadict.csv) is a link to the dataset for those interested. In this dataset I analyzed over 1,800 rows of data and the following columns were most relevant:
+To begin my exploration, I started by looking for any potential ageism that might be happening at the company. By creating a boxplot using the two variables of focus, I was able to get a high level visual of their relationship. 
+--IMAGE OF BOXPLOT EQUATION--
 
-- graduation rates
-- class size
-- economic disadvantage
-- college attendance
-- 4th grade math test scores (P+A)
+At first glance, we can see that the Median Age for those who weren't let go is actually higher than the Age of those that were. 
 
 ### Key Insights
 
