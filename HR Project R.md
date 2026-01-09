@@ -1,4 +1,4 @@
-# Uncovering HR Data using Statistics: Is Ageism impacting Attrition?
+# Uncovering HR Data using Statistics: What Factors Impact Attrition?
 
 <img src="/images/education project header cover (1).png?raw=true"/>
 
@@ -9,9 +9,10 @@ Attrition is something that all companies experience and while the reasons for i
 Using statistics along with linear and logistic regression in R, I found some answers to important questions: 
 
 - Do older employees get let go more than younger employees?
-- Are Junior employees more likely to be laid off Senior employees?
-- Does job stagnation affect turnover rates?
+- Are Junior Employees more likely to be laid off than Senior Employees?
 - How does worklife balance affect employee length of stay?
+- Does job stagnation affect turnover rates?
+- How strongly can experience predict income?
 
 ## Data Analysis
 
@@ -21,13 +22,18 @@ To begin my exploration, I started by looking for any potential ageism that migh
 
 At first glance, we can see that the Median Age for those who weren't let go is actually higher than the Age of those that were.
 
-To get a more in-depth look at the difference between the two groups (employees that turned over vs employees that didn't turn over), I conducted a t-test to find out if there is a statistical significance. Before I could go through with this, I established variables that met the criteria for the two groups I wanted to test:
+To get a more in-depth look at the difference between the two groups, (employees that turned over vs employees that didn't turn over) I conducted a t-test to find out if there is a statistical significance. Before I could go through with this, I established variables that met the criteria for the two groups I wanted to test:
 
 --IMAGE OF LISTS--
 
 Once that was established, I performed the t.test below and got a clearer understanding of the difference. Because the p-value was 0.0000000138, which is less than 0.05, this proved that there is a statistically significant difference between the two groups, although it was the opposite of what was being searched for. In actuality, the average age of those who left was about 34, younger than the average age of retained employees which was about 38. While it appears that younger employees are leaving more than older ones, we can see that the difference in the Mean between the two groups is not very big, which is a good sign that there seems to be minimal age discrimination.
 
 --IMAGE OF T-TEST--
+
+
+
+
+
 
 While knowing the significance of age in relation to attrition is a great start, another common concern within the turnover discussion is employee seniority. Using similar methods as before, I dove deeper into the variables of seniority and attrition to see how strong their relationship is. (In this instance, Employee Number represents level of seniority. Lower numbers represent newer employees and larger numbers represent tenured employees)
 
@@ -38,6 +44,13 @@ The initial visualization revealed that the Median between the two groups is inc
 --IMAGE OF T-TEST--
 
 Not only did the t-test demonstrate how close the Means of the two groups were, but it established that the p-value was high at 0.678.  This made it apparent that statistically, seniority is not related to turnover rate.  Junior Employees are **not** more likely leave or be laid off than Senior Employees.
+
+
+
+
+It has been great to find that there has been minimal discrimination in the attrition process when focused on the factors of age and seniority. That being said, something that can sometimes go unheard in the conversion is the importance of worklife balance. Worklife balance doesn't look the same for everyone, and learning more about how it can affect an employee's length of stay can be beneficial to an organization's efforts towards reducing turnover rates. To learn more, I 
+
+
 
 
 
