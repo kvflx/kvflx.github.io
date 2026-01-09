@@ -6,7 +6,7 @@
 
 Attrition is something that all companies experience and while the reasons for it can vary, it is important that those reasons aren't ever related to inequality or discrimination in the workplace. Unfortunately, sometimes it can be unclear whether those aspects are at play, and that is where looking at the numbers can be useful. In this project I analyzed an HR Dataset from IBM to find whether relationships exist between attrition and various factors such as age, experience, and more. (Original Data Found Here) --HYPERLINK THIS
 
-Using statistics along with linear and logistic regression in R, I found some answers to important questions regarding these relationships: 
+Using statistics along with linear and logistic regression in R, I found some answers to important questions: 
 
 - Do older employees get let go more than younger employees?
 - Are Junior employees more likely to be laid off Senior employees?
@@ -15,10 +15,20 @@ Using statistics along with linear and logistic regression in R, I found some an
 
 ## Data Analysis
 
-To begin my exploration, I started by looking for any potential ageism that might be happening at the company. By creating a boxplot using the two variables of focus, I was able to get a high level visual of their relationship. 
+To begin my exploration, I started by looking for any potential ageism that might be happening at the company, specifically against older individuals. By creating a boxplot using the two variables of focus, I was able to get a high level visual of their relationship. 
+
 --IMAGE OF BOXPLOT EQUATION--
 
-At first glance, we can see that the Median Age for those who weren't let go is actually higher than the Age of those that were. 
+At first glance, we can see that the Median Age for those who weren't let go is actually higher than the Age of those that were.. 
+
+To get a more in-depth look at the difference between the two values, I conducted a t-test that allowed me to compare the means between the two groups (employees that turned over vs employees that didn't turn over). Before I could go through with this, I established two lists that met the criteria for the two groups I wanted to test:
+
+--IMAGE OF LISTS--
+
+Once that was established, I performed the t.test below and got a clearer understanding about the difference in the means. While in the box plot it was evident that the "No" group had a higher mean than the "Yes" group, we can now see that it isn't very high in comparison.
+
+
+
 
 ### Key Insights
 
