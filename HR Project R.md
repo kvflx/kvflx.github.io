@@ -37,7 +37,7 @@ The initial visualization revealed that the Median between the two groups is inc
 
 --IMAGE OF T-TEST--
 
-Not only did the t-test demonstrate how close the Means of the two groups were, but it established that the p-value was high at 0.678, making it apparent that there statistically, seniority is not related to turnover rate. Junior Employees are **not** more likely leave or be let go than Senior Employees.
+Not only did the t-test demonstrate how close the Means of the two groups were, but it established that the p-value was high at 0.678. This made it apparent that statistically, seniority is not related to turnover rate. Junior Employees are **not** more likely leave or be let go than Senior Employees.
 
 
 
