@@ -27,9 +27,18 @@ To get a more in-depth look at the difference between the two groups (employees 
 
 Once that was established, I performed the t.test below and got a clearer understanding of the difference. Because the p-value was 0.0000000138, which is less than 0.05, this proved that there is a statistically significant difference between the two groups, although it was the opposite of what was being searched for. In actuality, the average age of those who left was about 34, younger than the average age of retained employees which was about 38. While it appears that younger employees are leaving more than older ones, we can see that the difference in the Mean between the two groups is not very big, which is a good sign that there seems to be minimal age discrimination.
 
-
+--IMAGE OF T-TEST--
 
 While knowing the significance of age in relation to attrition is a great start, another common concern within the turnover discussion is employee seniority. Using similar methods as before, I dove deeper into the variables of seniority and attrition to see how strong their relationship is. (In this instance, Employee Number represents level of seniority. Lower numbers represent newer employees and larger numbers represent tenured employees)
+
+-BOX PLOT IMAGE-
+
+The initial visualization revealed that the Median between the two groups is incredibly similar, so running a t-test here was especially helpful to see whether there is a statistically significant difference between the variables. 
+
+--IMAGE OF T-TEST--
+
+Not only did the t-test demonstrate how close the Means of the two groups were, but it established that the p-value was high at 0.678, making it apparent that there statistically, seniority is not related to turnover rate. Junior Employees are **not** more likely leave or be let go than Senior Employees.
+
 
 
 
