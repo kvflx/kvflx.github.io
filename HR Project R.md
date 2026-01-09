@@ -19,13 +19,17 @@ To begin my exploration, I started by looking for any potential ageism that migh
 
 --IMAGE OF BOXPLOT EQUATION--
 
-At first glance, we can see that the Median Age for those who weren't let go is actually higher than the Age of those that were.. 
+At first glance, we can see that the Median Age for those who weren't let go is actually higher than the Age of those that were.
 
-To get a more in-depth look at the difference between the two values, I conducted a t-test that allowed me to compare the means between the two groups (employees that turned over vs employees that didn't turn over). Before I could go through with this, I established two lists that met the criteria for the two groups I wanted to test:
+To get a more in-depth look at the difference between the two groups (employees that turned over vs employees that didn't turn over), I conducted a t-test to find out if there is a statistical significance. Before I could go through with this, I established variables that met the criteria for the two groups I wanted to test:
 
 --IMAGE OF LISTS--
 
-Once that was established, I performed the t.test below and got a clearer understanding about the difference in the means. While in the box plot it was evident that the "No" group had a higher mean than the "Yes" group, we can now see that it isn't very high in comparison.
+Once that was established, I performed the t.test below and got a clearer understanding of the difference. Because the p-value was 0.0000000138, which is less than 0.05, this proved that there is a statistically significant difference between the two groups, although it was the opposite of what was being searched for. In actuality, the average age of those who left was about 34, younger than the average age of retained employees which was about 38. While it appears that younger employees are leaving more than older ones, we can see that the difference in the Mean between the two groups is not very big, which is a good sign that there seems to be minimal age discrimination.
+
+
+
+While knowing the significance of age in relation to attrition is a great start, another common concern within the turnover discussion is employee seniority. Using similar methods as before, I dove deeper into the variables of seniority and attrition to see how strong their relationship is. (In this instance, Employee Number represents level of seniority. Lower numbers represent newer employees and larger numbers represent tenured employees)
 
 
 
