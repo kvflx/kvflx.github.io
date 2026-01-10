@@ -26,7 +26,7 @@ To get a more in-depth look at the difference between the two groups, (employees
 
 --IMAGE OF LISTS--
 
-Once that was established, I performed the t.test below and got a clearer understanding of the difference. Because the p-value was 0.0000000138, which is less than 0.05, this proved that there is a statistically significant difference between the two groups, although it was the opposite of what was being searched for. In actuality, the average age of those who left was about 34, younger than the average age of retained employees which was about 38. While it appears that younger employees are leaving more than older ones, we can see that the difference in the Mean between the two groups is not very big, which is a good sign that there seems to be minimal age discrimination.
+Once that was established, I performed the t-test below and got a clearer understanding of the difference. Because the p-value was 0.0000000138, which is less than 0.05, this proved that there is a statistically significant difference between the two groups, although it was the opposite of what was being searched for. In actuality, the average age of those who left was about 34, younger than the average age of retained employees which was about 38. While it appears that younger employees are leaving more than older ones, we can see that the difference in the Mean between the two groups is not very big, which is a good sign that there seems to be minimal age discrimination.
 
 --IMAGE OF T-TEST--
 
@@ -35,7 +35,7 @@ Once that was established, I performed the t.test below and got a clearer unders
 
 
 
-While knowing the significance of age in relation to attrition is a great start, another common concern within the turnover discussion is employee seniority. Using similar methods as before, I dove deeper into the variables of seniority and attrition to see how strong their relationship is. (In this instance, Employee Number represents level of seniority. Lower numbers represent newer employees and larger numbers represent tenured employees)
+While knowing the significance of age in relation to attrition is a great start, another common concern within the turnover discussion is employee seniority. Using similar methods as before, I dove deeper into the variables of seniority and attrition to see how strong their relationship is. (In this instance, Employee Number represents level of seniority. Larger numbers are newer employees and smaller numbers represent tenured employees.)
 
 -BOX PLOT IMAGE-
 
@@ -43,12 +43,12 @@ The initial visualization revealed that the Median between the two groups is inc
 
 --IMAGE OF T-TEST--
 
-Not only did the t-test demonstrate how close the Means of the two groups were, but it established that the p-value was high at 0.678.  This made it apparent that statistically, seniority is not related to turnover rate.  Junior Employees are **not** more likely leave or be laid off than Senior Employees.
+Not only did the t-test demonstrate how close the Means of the two groups were, but it established that the p-value was high at 0.678.  This made it apparent that statistically, seniority is not related to turnover rate.  Junior Employees are **not** more likely to leave or be laid off than Senior Employees.
 
 
 
 
-It has been great to find that there has been minimal discrimination in the attrition process when focused on the factors of age and seniority. That being said, something that can sometimes go unheard in the conversion is the importance of worklife balance. Worklife balance doesn't look the same for everyone, and learning more about how it can affect an employee's length of stay can be beneficial to an organization's efforts towards reducing turnover rates. To learn more, I created much more detailed visualizations using the ggplot and pipe operator functions from the tidyverse library.
+It has been great to find that there has been minimal discrimination in the attrition process when focused on the factors of age and seniority. That being said, something that can sometimes go unheard in the conversation is the importance of worklife balance. Worklife balance doesn't look the same for everyone, and learning more about how it can affect an employee's length of stay can be beneficial to an organization's efforts towards reducing turnover rates. To learn more, I created detailed visualizations using the ggplot and pipe operator functions from the tidyverse library.
 
 Within the dataset, the WorkLifeBalance column had rows labeled 1-4, with each number representing a category rather than a scalable number. Before creating the bar graph, I had to ensure that R understood to view these as categories by creating a factor for WorkLifeBalance. In addition to this, I wanted to see the actual risk of attrition within each category, rather than just the count. 
 
@@ -56,7 +56,10 @@ Within the dataset, the WorkLifeBalance column had rows labeled 1-4, with each n
 
 ---IMAGE OF BAR GRAPH---
 
-While a higher risk of attrition from the "Bad" worklife balance group might've been expected, the plot established that this was true. I found it interesting that although the risk lowered as the worklife balance got better, there was actually a spike when comparing the "Better" group to the "Best" group. This signals to the organization that although an enjoyable worklife balance can lessen the risk of employees leaving, it isn't always the deciding factor.
+While a higher risk of attrition from the "Bad" worklife balance group might've been expected, the data establishes that it's actually true. I found it interesting that although the risk lowered as the worklife balance got better, there was actually a spike in risk when comparing the "Better" group to the "Best" group. This signals to the organization that although an enjoyable worklife balance can lessen the risk of employees leaving, it isn't always the deciding factor.
+
+
+
 
 
 
