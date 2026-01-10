@@ -58,8 +58,13 @@ Within the dataset, the WorkLifeBalance column had rows labeled 1-4, with each n
 
 While a higher risk of attrition from the "Bad" worklife balance group might've been expected, the data establishes that it's actually true. I found it interesting that although the risk lowered as the worklife balance got better, there was actually a spike in risk when comparing the "Better" group to the "Best" group. This signals to the organization that although an enjoyable worklife balance can lessen the risk of employees leaving, it isn't always the deciding factor.
 
-These results led me to find out more about the relationship between attrition and another factor: job stagnation. This is another variable that could be the final decision-maker for someone thinking about leaving a company. Using a logistic model, I 
+These results led me to find out more about the relationship between attrition and another factor: job stagnation. This is another variable that could be the final decision-maker for someone thinking about leaving a company. By using a logistic regression, I was able to see how strongly YearsSinceLastPromotion can impact the likelihood of someone leaving by looking at the association between YearsSinceLastPromotion, YearsAtCompany, and Attrition. 
 
+--IMAGE OF LOG MODEL--
+
+Looking at the p-values above, it looks like both variables have a statistical significance. Once again, this is a good overview, but I decided to show their effect in the form of an odds ratio. The odds ratio can make it easier to understand the true impact of both variables.  
+
+In the odds ratio for Job Stagnation below, we can see that for every year that passes where an employee is **not** promoted, the odds of them leaving the company increase by 11%. This may not seem like a lot at first, but if for example an employee goes somewhere between 3-5 years without a promotion, the odds compound fast. By year 5, an employee's odds of leaving could be as high as 68%! (11^5)
 
 
 
