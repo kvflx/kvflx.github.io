@@ -58,8 +58,7 @@ Within the dataset, the WorkLifeBalance column had rows labeled 1-4, with each n
 
 While a higher risk of attrition from the "Bad" worklife balance group might've been expected, the data establishes that it's actually true. I found it interesting that although the risk lowered as the worklife balance got better, there was actually a spike in risk when comparing the "Better" group to the "Best" group. This signals to the organization that although an enjoyable worklife balance can lessen the risk of employees leaving, it isn't always the deciding factor.
 
-
-
+These results led me to find out more about the relationship between attrition and another factor: job stagnation. This is another variable that could be the final decision-maker for someone thinking about leaving a company. Using a logistic model, I 
 
 
 
