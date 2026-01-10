@@ -1,4 +1,4 @@
-# Uncovering HR Data using Statistics: What Factors Impact Attrition?
+  # Uncovering HR Data using Statistics: What Factors Impact Attrition?
 
 <img src="/images/education project header cover (1).png?raw=true"/>
 
