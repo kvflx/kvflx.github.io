@@ -48,7 +48,19 @@ Not only did the t-test demonstrate how close the Means of the two groups were, 
 
 
 
-It has been great to find that there has been minimal discrimination in the attrition process when focused on the factors of age and seniority. That being said, something that can sometimes go unheard in the conversion is the importance of worklife balance. Worklife balance doesn't look the same for everyone, and learning more about how it can affect an employee's length of stay can be beneficial to an organization's efforts towards reducing turnover rates. To learn more, I 
+It has been great to find that there has been minimal discrimination in the attrition process when focused on the factors of age and seniority. That being said, something that can sometimes go unheard in the conversion is the importance of worklife balance. Worklife balance doesn't look the same for everyone, and learning more about how it can affect an employee's length of stay can be beneficial to an organization's efforts towards reducing turnover rates. To learn more, I created much more detailed visualizations using the ggplot and pipe operator functions from the tidyverse library.
+
+Within the dataset, the WorkLifeBalance column had rows labeled 1-4, with each number representing a category rather than a scalable number. Before creating the bar graph, I had to ensure that R understood to view these as categories by creating a factor for WorkLifeBalance. In addition to this, I wanted to see the actual risk of attrition within each category, rather than just the count. 
+
+--IMAGE OF CODE---
+
+---IMAGE OF BAR GRAPH---
+
+While a higher risk of attrition from the "Bad" worklife balance group might've been expected, the plot established that this was true. I found it interesting that although the risk lowered as the worklife balance got better, there was actually a spike when comparing the "Better" group to the "Best" group. This signals to the organization that although an enjoyable worklife balance can lessen the risk of employees leaving, it isn't always the deciding factor.
+
+
+
+
 
 
 
