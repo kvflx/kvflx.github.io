@@ -4,8 +4,7 @@
 
 ## Intro
 
-Attrition is something that all companies experience and while the reasons for it can vary, it is important that those reasons aren't ever related to inequality or discrimination in the workplace. Unfortunately, sometimes it can be unclear whether those aspects are at play, and looking at exploring data can help us find the answers. In this project I analyzed an HR Dataset from IBM to find whether relationships exist between attrition and various factors such as age, experience, and more. (Original Data Found Here) --HYPERLINK THIS
-
+Attrition is something that all companies experience and while the reasons for it can vary, it is important that those reasons aren't ever related to inequality or discrimination in the workplace. Unfortunately, sometimes it can be unclear whether those aspects are at play, and looking at exploring data can help us find the answers. In this project I analyzed an HR Dataset from IBM to find whether relationships exist between attrition and various factors such as age, experience, and more. 
 Using statistics along with linear and logistic regression in R, I found some answers to important questions: 
 
 - Do older employees get let go more than younger employees?
@@ -92,6 +91,8 @@ Since years of experience are clearly a strong predictor of income, this suggest
 This analysis revealed the importance of considering multiple factors when assessing employee attrition. By understanding how factors such as age, worklife balance, years of experience, and monthly income can increase or mitigate the risk of turnover, IBM can implement more nuanced strategies to reduce overall attrition.
 
 Thank you for taking the time to check out my project! If you'd like to chat or have any questions, feel free to connect with me on Linkedin!
+
+[**Click here to checkout the original dataset used in this project.**](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
 
 
