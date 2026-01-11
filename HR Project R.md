@@ -64,6 +64,7 @@ Looking at the p-values above, it looks like both variables have a statistical s
 
 <img src="/images/yearspromo_odds_ratio_code.png?raw=true"/>
 <img src="/images/yearspromo_odds_ratio_visual.PNG?raw=true"/>
+
 In the odds ratio for YearsSinceLastPromotion seen above, we can see that for every year that passes where an employee is not promoted, the odds of them leaving the company increase by 11%. This may not seem like a lot at first, but if for example an employee goes somewhere between 3-5 years without a promotion, the odds increase quickly. After five years, an employee's odds of leaving could increase by 68%.
 
 On the other hand, when we look at the Odds Ratio for YearsAtCompany, given the value is below 1, that tells us that the odds of someone leaving the company decrease by 11.5% after every additional year they spend at the company. 
