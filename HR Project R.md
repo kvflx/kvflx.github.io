@@ -41,7 +41,7 @@ The initial visualization revealed that the Median between the two groups is inc
 <img src="/images/seniority_attrition_test_code.png?raw=true"/>
 <img src="/images/seniority_attrition_test_visual.PNG?raw=true"/>
 
-Not only did the t-test demonstrate how close the Means of the two groups were, but it established that the p-value was high at 0.678.  This made it apparent that statistically, seniority was not related to turnover rate.  Junior Employees are **not** more likely to leave or be laid off than Senior Employees.
+Not only did the t-test demonstrate how close the Means of the two groups were, but it established that the p-value was high at 0.678.  This made it apparent that statistically, seniority was not related to turnover rate.  Junior employees are not more likely to leave or be laid off than Senior employees.
 
 
 
@@ -65,7 +65,7 @@ Looking at the p-values above, it looks like both variables have a statistical s
 
 <img src="/images/yearspromo_odds_ratio_code.png?raw=true"/>
 <img src="/images/yearspromo_odds_ratio_visual.PNG?raw=true"/>
-In the odds ratio for YearsSinceLastPromotion seen above, we can see that for every year that passes where an employee is **not** promoted, the odds of them leaving the company increase by 11%. This may not seem like a lot at first, but if for example an employee goes somewhere between 3-5 years without a promotion, the odds increase quickly. After five years, an employee's odds of leaving could increase by 68%.
+In the odds ratio for YearsSinceLastPromotion seen above, we can see that for every year that passes where an employee is not promoted, the odds of them leaving the company increase by 11%. This may not seem like a lot at first, but if for example an employee goes somewhere between 3-5 years without a promotion, the odds increase quickly. After five years, an employee's odds of leaving could increase by 68%.
 
 On the other hand, when we look at the Odds Ratio for YearsAtCompany, given the value is below 1, that tells us that the odds of someone leaving the company decrease by 11.5% after every additional year they spend at the company. 
 
@@ -77,7 +77,7 @@ To do this, I used a linear regression model that looked at the association betw
 
 <img src="/images/income_age_years_linmodel_code.png?raw=true"/>
 <img src="/images/income_age_years_linmodel_visual_final.png?raw=true"/>
-The p-value for Age tells us that it is **not** statistically significant in relation to MonthlyIncome, as it is above the 0.05 threshold. Meanwhile, the p-value for TotalWorkingYears tells us the opposite, with a value of less than 0.0000000000000002. While TotalWorkingYears is a statistically significant indicator of MonthlyIncome and Age is not, the R-squared value establishes that roughly 60% of the total variance in MonthlyIncome can be collectively explained by both variables in the model.
+The p-value for Age tells us that it is not statistically significant in relation to MonthlyIncome, as it is above the 0.05 threshold. Meanwhile, the p-value for TotalWorkingYears tells us the opposite, with a value of less than 0.0000000000000002. While TotalWorkingYears is a statistically significant indicator of MonthlyIncome and Age is not, the R-squared value establishes that roughly 60% of the total variance in MonthlyIncome can be collectively explained by both variables in the model.
 
 Since years of experience are clearly a strong predictor of income, this suggests that IBM should ensure their promotion assessments are fair by keeping experience in mind to help prevent employee turnover.
 
