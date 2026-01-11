@@ -24,11 +24,11 @@ At first glance, we can see that the Median Age for those who weren't let go is 
 
 To get a more in-depth look at the difference between the two groups, (employees that turned over vs employees that didn't turn over) I conducted a t-test to find out if there is a statistical significance. Before I could go through with this, I established variables that met the criteria for the two groups I wanted to test:
 
-<img src="/images/age_attrition_boxplot_code.png?raw=true"/>--IMAGE OF LISTS--
+<img src="/images/age_attrition_test_code.png?raw=true"/>--IMAGE OF LISTS--
 
 Once that was established, I performed the t-test below and got a clearer understanding of the difference. Because the p-value was less 0.0000000138, which is less than 0.05, this proved that there was a statistically significant difference between the two groups, although it was the opposite of what was being searched for. In actuality, the average age of those who left was about 34, younger than the average age of retained employees which was about 38. While it appears that younger employees are leaving more than older ones, we can see that the difference in the Mean between the two groups is not very big, which is a good sign that there seems to be minimal age discrimination.
 
---IMAGE OF T-TEST--
+<img src="/images/age_attrition_test_visual.PNG?raw=true"/>--IMAGE OF T-TEST--
 
 
 
@@ -37,11 +37,13 @@ Once that was established, I performed the t-test below and got a clearer unders
 
 While knowing the significance of age in relation to attrition is a great start, another common concern within the turnover discussion is employee seniority. Using similar methods as before, I dove deeper into the variables of seniority and attrition to see how strong their relationship is. (In this instance, Employee Number represents level of seniority. Larger numbers are newer employees and smaller numbers represent tenured employees.)
 
--BOX PLOT IMAGE-
+<img src="/images/seniority_attrition_boxplot_code.png?raw=true"/>
+<img src="/images/seniority_attrition_boxplot_visual.png?raw=true"/>
 
 The initial visualization revealed that the Median between the two groups is incredibly similar, so running a t-test here was especially helpful to see whether there was a statistically significant difference between the variables. 
 
---IMAGE OF T-TEST--
+<img src="/images/seniority_attrition_test_code.png?raw=true"/>
+<img src="/images/seniority_attrition_test_visual.PNG?raw=true"/> --IMAGE OF T-TEST--
 
 Not only did the t-test demonstrate how close the Means of the two groups were, but it established that the p-value was high at 0.678.  This made it apparent that statistically, seniority was not related to turnover rate.  Junior Employees are **not** more likely to leave or be laid off than Senior Employees.
 
@@ -52,33 +54,33 @@ It has been great to find that there has been minimal discrimination in the attr
 
 Within the dataset, the WorkLifeBalance column had rows labeled 1-4, with each number representing a category rather than a scalable number. Before creating the bar graph, I had to ensure that R knew to view these values as categories by creating a factor for WorkLifeBalance. In addition to this, I wanted to see the actual risk of attrition within each category, rather than just the count. 
 
---IMAGE OF CODE---
+<img src="/images/wlb_graph_code.png?raw=true"/>--IMAGE OF CODE---
 
----IMAGE OF BAR GRAPH---
+<img src="/images/wlb_graph_visual.png?raw=true"/>---IMAGE OF BAR GRAPH---
 
 While a higher risk of attrition from the "Bad" worklife balance group might've been expected, the data establishes that it's actually true. I found it interesting that although the risk lowered as the worklife balance got better, there was actually a spike in risk when comparing the "Better" group to the "Best" group. This signals to the organization that although an enjoyable worklife balance can lessen the risk of employees leaving, it isn't always the deciding factor.
 
 These results led me to find out more about the relationship between attrition and another factor: job stagnation. This is another variable that could be the final decision-maker for someone thinking about leaving a company. By using logistic regression, I was able to see how strongly YearsSinceLastPromotion can impact the likelihood of someone leaving by looking at the association between YearsSinceLastPromotion, YearsAtCompany, and Attrition. 
 
---IMAGE OF LOG MODEL--
-
+<img src="/images/attrition_yearspromo_yearscompany_logmodel_code.png?raw=true"/>--IMAGE OF LOG MODEL--
+<img src="/images/attrition_yearspromo_yearscompany_logmodel_visual_final.png.png?raw=true"/>
 Looking at the p-values above, it looks like both variables have a statistical significance. Once again, this is a good overview, but I decided to show their effect in the form of an odds ratio. The odds ratio can make it easier to understand the true impact of both variables.  
 
 
---IMAGE OF YEARSSINCELASTPROMO MODEL and MATH--
-
+<img src="/images/yearspromo_odds_ratio_code.png?raw=true"/>--IMAGE OF YEARSSINCELASTPROMO MODEL and MATH--
+<img src="/images/yearspromo_odds_ratio_visual.PNG?raw=true"/>
 In the odds ratio for YearsSinceLastPromotion seen above, we can see that for every year that passes where an employee is **not** promoted, the odds of them leaving the company increase by 11%. This may not seem like a lot at first, but if for example an employee goes somewhere between 3-5 years without a promotion, the odds increase quickly. After five years, an employee's odds of leaving could increase by 68%.
 
 On the other hand, when we look at the Odds Ratio for YearsAtCompany, given the value is below 1, that tells us that the odds of someone leaving the company decrease by 11.5% after every additional year they spend at the company. 
 
---IMAGE OF YEARS AT COMPANY ODDS AND DO THE MATH AS WELL--
-
+<img src="/images/yearspromo_yearsatcompany_oddsratio_code.png?raw=true"/>--IMAGE OF YEARS AT COMPANY ODDS AND DO THE MATH AS WELL--
+<img src="/images/yearspromo_yearsatcompany_oddsratio_visual_final.png?raw=true"/>
 The final question to be answered was related to years of experience. After finding out how years without promotion can increase the odds of employee attrition, IBM could implement new promotion strategies by getting a better idea about how age and years of experience impact somebody's income.  
 
 To do this, I used a linear regression model that looked at the association between the variables of Age, TotalWorkingYears, and MonthlyIncome. 
 
---IMAGE OF LINEAR MODEL--
-
+<img src="/images/income_age_years_linmodel_code.png?raw=true"/>--IMAGE OF LINEAR MODEL--
+<img src="/images/income_age_years_linmodel_visual_final.png?raw=true"/>
 The p-value for Age tells us that it is **not** statistically significant in relation to MonthlyIncome, as it is above the 0.05 threshold. Meanwhile, the p-value for TotalWorkingYears tells us the opposite, with a value of less than 0.0000000000000002. While TotalWorkingYears is a statistically significant indicator of MonthlyIncome and Age is not, the R-squared value establishes that roughly 60% of the total variance in MonthlyIncome can be collectively explained by both variables in the model.
 
 Since years of experience are clearly a strong predictor of income, this suggests that IBM should ensure their promotion assessments are fair by keeping experience in mind to help prevent employee turnover.
