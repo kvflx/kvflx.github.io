@@ -2,6 +2,7 @@
 
 <img src="/images/education project header cover (1).png?raw=true"/> 
 
+## Intro
 I’m someone who was raised in Las Vegas, Nevada and am fortunate to have experienced a pretty good education throughout my time in school.  While I am proud of the things I learned and the education I received, I very much remember constantly hearing about Nevada ranking at the bottom of state education rankings. Even as I write this, Nevada remains in the bottom 10 states across the country. Although I know this is the case, I’ve never truly understood the factors that impact a state’s education proficiency. 
 
 Using Tableau, I analyzed and visualized data from various schools and districts throughout the Massachusetts area. The focus of the project was finding answers to the following questions made by the Commissioner of Education for the State:
