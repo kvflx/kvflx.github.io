@@ -90,7 +90,7 @@ Since years of experience are clearly a strong predictor of income, this suggest
 
 This analysis revealed the importance of considering multiple factors when assessing employee attrition. By understanding how factors such as age, worklife balance, years of experience, and monthly income can increase or mitigate the risk of turnover, IBM can implement more nuanced strategies to reduce overall attrition.
 
-Thank you for taking the time to check out my project! If you'd like to chat or have any questions, feel free to connect with me on Linkedin!
+Thank you for taking the time to check out my project! If you'd like to chat or have any questions, feel free to connect with me on [LinkedIn](linkedin.com/in/kevinfelixleyva)!
 
 [**Click here to checkout the original dataset used in this project.**](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
