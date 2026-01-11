@@ -1,6 +1,6 @@
   # Uncovering HR Data using Statistics: What Factors Impact Attrition?
 
-<img src="/images/r project port header.png?raw=true"/>
+<img src="/images/r project port header final.png?raw=true"/>
 
 ## Intro
 
