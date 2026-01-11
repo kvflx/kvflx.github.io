@@ -1,5 +1,4 @@
-layout: default
-title: "Uncovering HR Data using Statistics"
+
 
 # Uncovering HR Data using Statistics: What Factors Impact Attrition?
 
