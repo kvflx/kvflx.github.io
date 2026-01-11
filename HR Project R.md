@@ -18,13 +18,13 @@ Using statistics along with linear and logistic regression in R, I found some an
 
 To begin my exploration, I started by looking for any potential ageism that might be happening at the company, specifically against older individuals. By creating a boxplot using the two variables of Age and Attrition, I was able to get a high level visual of their relationship. 
 
---IMAGE OF BOXPLOT EQUATION--
+<img src="/images/age_attrition_boxplot_code.png?raw=true"/>
 
 At first glance, we can see that the Median Age for those who weren't let go is actually higher than the Age of those that were.
 
 To get a more in-depth look at the difference between the two groups, (employees that turned over vs employees that didn't turn over) I conducted a t-test to find out if there is a statistical significance. Before I could go through with this, I established variables that met the criteria for the two groups I wanted to test:
 
---IMAGE OF LISTS--
+<img src="/images/age_attrition_boxplot_code.png?raw=true"/>--IMAGE OF LISTS--
 
 Once that was established, I performed the t-test below and got a clearer understanding of the difference. Because the p-value was less 0.0000000138, which is less than 0.05, this proved that there was a statistically significant difference between the two groups, although it was the opposite of what was being searched for. In actuality, the average age of those who left was about 34, younger than the average age of retained employees which was about 38. While it appears that younger employees are leaving more than older ones, we can see that the difference in the Mean between the two groups is not very big, which is a good sign that there seems to be minimal age discrimination.
 
