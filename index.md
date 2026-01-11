@@ -4,7 +4,7 @@
 
 ### Check out some of my projects!
 
-#### [Uncovering HR Data using Statistics: What Factors Impact Attrition? - R](/HR Project R)
+#### [Uncovering HR Data using Statistics: What Factors Impact Attrition? - R](/HR Project R.md)
 <img src="images/r project port header final.png?raw=true"/>
 In this project, I analyzed an HR Dataset from IBM to find relationships between attrition and various other factors such as age, experience, and more, using statistics along with linear and logistic regression in R.
 
