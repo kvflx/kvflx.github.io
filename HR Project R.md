@@ -19,7 +19,7 @@ Using statistics along with linear and logistic regression in R, I found some an
 To begin my exploration, I started by looking for any potential ageism that might be happening at the company, specifically against older individuals. By creating a boxplot using the two variables of Age and Attrition, I was able to get a high level visual of their relationship. 
 
 <img src="/images/age_attrition_boxplot_code.png?raw=true"/>
-
+<img src="/images/age_attrition_boxplot_visual.png?raw=true"/>
 At first glance, we can see that the Median Age for those who weren't let go is actually higher than the Age of those that were.
 
 To get a more in-depth look at the difference between the two groups, (employees that turned over vs employees that didn't turn over) I conducted a t-test to find out if there is a statistical significance. Before I could go through with this, I established variables that met the criteria for the two groups I wanted to test:
