@@ -6,7 +6,7 @@
 
 #### [Uncovering HR Data using Statistics: What Factors Impact Attrition? - R](/HR%20Project%20R)
 <img src="images/r project port header final.png?raw=true"/>
-In this project, I analyzed an HR Dataset from IBM to find relationships between attrition and various other factors such as age, experience, and more using statistics along with linear and logistic regression in R.
+In this project, I analyzed an HR Dataset from IBM to find relationships between attrition and various other factors such as age, experience, and more, using statistics along with linear and logistic regression in R.
 
 #### [The Details Behind Hospital Stays: Healthcare SQL Analysis](https://www.linkedin.com/pulse/details-behind-hospital-stays-healthcare-sql-analysis-kevin-felix-jaadc/)
 <img src="images/hospital sql project header (3).png?raw=true"/>
