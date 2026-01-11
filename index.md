@@ -6,7 +6,7 @@
 
 #### [Uncovering HR Data using Statistics: What Factors Impact Attrition? - R](/HR%20Project%20R)
 <img src="images/r project port header final.png?raw=true"/>
-This project focused on using Tableau to analyze and visualize data from the Massachussetts Department of Education. Take a look at my findings!
+For this project I used R to focused on using Tableau to analyze and visualize data from the Massachussetts Department of Education. Take a look at my findings!
 
 #### [The Details Behind Hospital Stays: Healthcare SQL Analysis](https://www.linkedin.com/pulse/details-behind-hospital-stays-healthcare-sql-analysis-kevin-felix-jaadc/)
 <img src="images/hospital sql project header (3).png?raw=true"/>
