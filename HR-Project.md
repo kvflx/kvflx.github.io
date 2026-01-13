@@ -39,7 +39,7 @@ While knowing the significance of age in relation to attrition is a great start,
 
 The initial visualization revealed that the Median between the two groups is slightly different and running a t-test here was especially helpful to see whether there was a statistically significant difference between the variables. 
 
-<img src="/images/seniority_attrition_test_code.png?raw=true"/>
+<img src="/images/seniority_vs_attrition_working_years_test_code.png?raw=true"/>
 <img src="/images/seniorty_vs_attrition_workingyears_test_visual.PNG?raw=true"/>
 
 Not only did the t-test demonstrate how close the Means of the two groups were, but it established that the p-value was low at 0.0000000000116.  This made it apparent that statistically, seniority is significantly related to turnover rate.  Junior employees are in fact more likely to leave or be laid off than Senior employees. Nonetheless, it is important to acknowledge that in this dataset the similarity in the Means indicates that at IBM the difference is marginal.
