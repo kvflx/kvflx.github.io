@@ -37,12 +37,12 @@ While knowing the significance of age in relation to attrition is a great start,
 <img src="/images/seniority_attrition_boxplot_code.png?raw=true"/>
 <img src="/images/seniority_attrition_boxplot_visual.png?raw=true"/>
 
-The initial visualization revealed that the Median between the two groups is incredibly similar, so running a t-test here was especially helpful to see whether there was a statistically significant difference between the variables. 
+The initial visualization revealed that the Median between the two groups is slightly different and running a t-test here was especially helpful to see whether there was a statistically significant difference between the variables. 
 
 <img src="/images/seniority_attrition_test_code.png?raw=true"/>
 <img src="/images/seniority_attrition_test_visual.PNG?raw=true"/>
 
-Not only did the t-test demonstrate how close the Means of the two groups were, but it established that the p-value was high at 0.678.  This made it apparent that statistically, seniority was not related to turnover rate.  Junior employees are not more likely to leave or be laid off than Senior employees.
+Not only did the t-test demonstrate how close the Means of the two groups were, but it established that the p-value was low at 0.0000000000116.  This made it apparent that statistically, seniority is significantly related to turnover rate.  Junior employees are in fact more likely to leave or be laid off than Senior employees. Nonetheless, it is important to acknowledge that in this dataset the similarity in the Means indicates that at IBM the difference is marginal.
 
 
 
@@ -86,7 +86,7 @@ Since years of experience are clearly a strong predictor of income, this suggest
 ### Final Insights
 
 - Younger employees leave the company more often than older employees.
-- Junior employees are **not** more likely to leave or be laid off than senior employees.
+- Junior employees are more likely to leave or be laid off than senior employees.
 - Worklife balance affects the risk of employee attrition. The worse the worklife balance is, the higher the risk of an employee leaving.
 - Every year an employee remains without a promotion in their current position, the odds of them leaving the company increase by 11%
 - Years of experience are a strong predictor of income, signaling the importance of fair promotion assessments.
