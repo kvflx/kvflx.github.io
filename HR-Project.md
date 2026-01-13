@@ -53,7 +53,7 @@ Within the dataset, the WorkLifeBalance column had rows labeled 1-4, with each n
 
 <img src="/images/wlb_graph_code.png?raw=true"/>
 
-<img src="/images/wlb_graph_visual.png?raw=true"/>
+<img src="/images/wlb_group_attrition_no_legend_visual.png.png?raw=true"/>
 
 While a higher risk of attrition from the "Bad" worklife balance group might've been expected, the data establishes that it's actually true. I found it interesting that although the risk lowered as the worklife balance got better, there was actually a spike in risk when comparing the "Better" group to the "Best" group. This signals to the organization that although an enjoyable worklife balance can lessen the risk of employees leaving, it isn't always the deciding factor.
 
