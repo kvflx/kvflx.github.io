@@ -10,7 +10,7 @@ Attrition is something that all companies experience and while the reasons for i
 Using statistics along with linear and logistic regression in R, I found some answers to important questions: 
 
 - Do older employees leave more than younger employees?
-- Are junior employees more likely to be laid off than senior employees?
+- Are junior employees more likely to be leave than senior employees?
 - How does worklife balance affect employee length of stay?
 - Does job stagnation affect turnover rates?
 - How strongly can years of experience predict income?
