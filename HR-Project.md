@@ -9,7 +9,7 @@
 Attrition is something that all companies experience and while the reasons for it can vary, it is important that those reasons aren't ever related to inequality or discrimination in the workplace. Unfortunately, sometimes it can be unclear whether those aspects are at play, and looking at exploring data can help us find the answers. In this project I analyzed an HR Dataset from IBM to find whether relationships exist between attrition and various factors such as age, experience, and more. 
 Using statistics along with linear and logistic regression in R, I found some answers to important questions: 
 
-- Do older employees get leave more than younger employees?
+- Do older employees leave more than younger employees?
 - Are junior employees more likely to be laid off than senior employees?
 - How does worklife balance affect employee length of stay?
 - Does job stagnation affect turnover rates?
