@@ -55,7 +55,7 @@ Within the dataset, the WorkLifeBalance column had rows labeled 1-4, with each n
 
 <img src="/images/wlb_group_attrition_no_legend_visual.png?raw=true"/>
 
-While a higher risk of attrition from the "Bad" worklife balance group might've been expected, the data establishes that it's actually true. I found it interesting that although the risk lowered as the worklife balance got better, there was actually a spike in risk when comparing the "Better" group to the "Best" group. This signals to the organization that although an enjoyable worklife balance can lessen the risk of employees leaving, it isn't always the deciding factor.
+While a higher risk of attrition from the "Bad" worklife balance group might've been expected, the data implies that it's actually true. I found it interesting that although the risk lowered as the worklife balance got better, there was actually a spike in risk when comparing the "Better" group to the "Best" group. This signals to the organization that although an enjoyable worklife balance can lessen the risk of employees leaving, it isn't always the deciding factor. Additionally, they could conduct further investigation into sample size for ultimate certainty.
 
 These results led me to find out more about the relationship between attrition and another factor: job stagnation. This is another variable that could be the final decision-maker for someone thinking about leaving a company. By using logistic regression, I was able to see how strongly YearsSinceLastPromotion can impact the likelihood of someone leaving by looking at the association between YearsSinceLastPromotion, YearsAtCompany, and Attrition. 
 
