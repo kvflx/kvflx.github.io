@@ -9,7 +9,7 @@
 Attrition is something that all companies experience and while the reasons for it can vary, it is important that those reasons aren't ever related to inequality or discrimination in the workplace. Unfortunately, sometimes it can be unclear whether those aspects are at play, and looking at exploring data can help us find the answers. In this project I analyzed an HR Dataset from IBM to find whether relationships exist between attrition and various factors such as age, experience, and more. 
 Using statistics along with linear and logistic regression in R, I found some answers to important questions: 
 
-- Do older employees get let go more than younger employees?
+- Do older employees get leave more than younger employees?
 - Are junior employees more likely to be laid off than senior employees?
 - How does worklife balance affect employee length of stay?
 - Does job stagnation affect turnover rates?
@@ -21,7 +21,7 @@ To begin my exploration, I started by looking for any potential ageism that migh
 
 <img src="/images/age_attrition_boxplot_code.png?raw=true"/>
 <img src="/images/age_attrition_boxplot_visual.png?raw=true"/>
-At first glance, we can see that the Median Age for those who weren't let go is actually higher than the Age of those that were.
+At first glance, we can see that the Median Age for those who left is actually lower than the Age of those that didn't.
 
 To get a more in-depth look at the difference between the two groups, (employees that turned over vs employees that didn't turn over) I conducted a t-test to find out if there is a statistical significance. Before I could go through with this, I established variables that met the criteria for the two groups I wanted to test:
 
@@ -79,7 +79,7 @@ To do this, I used a linear regression model that looked at the association betw
 
 <img src="/images/income_age_years_linmodel_code.png?raw=true"/>
 <img src="/images/income_age_years_linmodel_visual_final.png?raw=true"/>
-The p-value for Age tells us that it is not statistically significant in relation to MonthlyIncome, as it is above the 0.05 threshold. Meanwhile, the p-value for TotalWorkingYears tells us the opposite, with a value of less than 0.0000000000000002. While TotalWorkingYears is a statistically significant indicator of MonthlyIncome and Age is not, the R-squared value establishes that roughly 60% of the total variance in MonthlyIncome can be collectively explained by both variables in the model.
+The p-value for Age tells us that it is statistically significant in relation to MonthlyIncome because although it is higher than the p-value for TotalWorkingYears, it is still lower than the 0.05 significance threshold. Additionally, the p-value for TotalWorkingYears is also significant, with a value of less than 0.0000000000000002. While both TotalWorkingYears and Age are statistically significant indicators of MonthlyIncome, the R-squared value also establishes that roughly 60% of the total variance in MonthlyIncome can be collectively explained by both variables in the model.
 
 Since years of experience are clearly a strong predictor of income, this suggests that IBM should ensure their promotion assessments are fair by keeping experience in mind to help prevent employee turnover.
 
