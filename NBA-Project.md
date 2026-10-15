@@ -31,7 +31,7 @@ At the same time, these are total statistics. Games played and minutes on the co
 
 After looking at individual production, I explored how different age groups contribute to team scoring. This stacked bar chart separates total points into three groups: under 25, ages 25-29, and ages 30 and older.
 
-<img src="/images/nba-team-points-age.png?raw=true" alt="Stacked bar chart of NBA team points split into under-25, 25â€“29, and 30-plus age groups" width="100%"/>
+<img src="/images/nba-team-points-age.png?raw=true" alt="Stacked bar chart of NBA team points split into under-25, 25-29, and 30-plus age groups" width="100%"/>
 
 Minnesota has the highest total points in the displayed data, with players ages 25â€“29 contributing the largest portion. Oklahoma City sits at the opposite end of the chart, with most of its scoring coming from players under 25.
 
