@@ -25,7 +25,7 @@ One of the clearest patterns is the concentration of point guards near the top o
 
 An interesting exception is Nikola Jokic. Although he plays center, his position on the chart places him among players with both high scoring and high assist totals, in an area largely occupied by point guards. This highlights how a player's statistical contributions can extend beyond the expectations associated with their position.
 
-At the same time, these are total statistics. Games played and minutes on the court can affect where a player appears, so the chart describes overall production rather than performance per minute or per game.
+At the same time, these are total statistics. Games played and minutes on the court can affect where a player appears, so the chart describes overall performance rather than performance per minute or per game.
 
 ### Understanding Each Team's Scoring by Age
 
