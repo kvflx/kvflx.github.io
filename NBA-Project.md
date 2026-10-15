@@ -23,13 +23,13 @@ To begin my exploration, I compared total points and assists in a scatterplot. E
 
 One of the clearest patterns is the concentration of point guards near the top of the chart. Players such as Trae Young, Chris Paul, and Dejounte Murray stand out for their assist totals. Trae Young also appears at the far right, combining a high scoring total with the highest assist total shown.
 
-An interesting exception is Nikola JokiÄ‡. Although he plays center, his position on the chart places him among players with both high scoring and high assist totals, in an area largely occupied by point guards. This highlights how a player's statistical contributions can extend beyond the expectations associated with their position.
+An interesting exception is Nikola Jokic. Although he plays center, his position on the chart places him among players with both high scoring and high assist totals, in an area largely occupied by point guards. This highlights how a player's statistical contributions can extend beyond the expectations associated with their position.
 
 At the same time, these are total statistics. Games played and minutes on the court can affect where a player appears, so the chart describes overall production rather than performance per minute or per game.
 
 ### Understanding Each Team's Scoring by Age
 
-After looking at individual production, I explored how different age groups contribute to team scoring. This stacked bar chart separates total points into three groups: under 25, ages 25â€“29, and ages 30 and older.
+After looking at individual production, I explored how different age groups contribute to team scoring. This stacked bar chart separates total points into three groups: under 25, ages 25-29, and ages 30 and older.
 
 <img src="/images/nba-team-points-age.png?raw=true" alt="Stacked bar chart of NBA team points split into under-25, 25â€“29, and 30-plus age groups" width="100%"/>
 
@@ -61,12 +61,12 @@ Several frontcourt groups stand out. San Antonio's centers and Sacramento's powe
 
 These examples show that high three-point percentage averages in this dataset are not limited to guards. The heatmap makes it easy to identify team-position combinations worth exploring further.
 
-There is an important distinction in how this chart should be interpreted: it uses **AVG(3P%)**, the average of player shooting percentages. That differs from a combined percentage calculated by dividing total three-pointers made by total attempts. A player with very few attempts can influence the average, so these results should be considered alongside shooting volume before drawing conclusions about a group's shooting strength. The `TOT` row is also a separate source-data category and should not be interpreted as an NBA team.
+There is an important distinction in how this chart should be interpreted: it uses **AVG(3P%)**, the average of player shooting percentages. That differs from a combined percentage calculated by dividing total three-pointers made by total attempts. A player with very few attempts can influence the average, so these results should be considered alongside shooting volume.
 
 ### Final Insights
 
 - Point guards feature prominently among players with high assist totals, while Nikola JokiÄ‡ stands out as a center with strong scoring and playmaking production.
-- Teams differ considerably in which age groups contribute their points. Minnesota's largest contribution comes from ages 25â€“29, while Oklahoma City's comes from players under 25.
+- Teams differ considerably in which age groups contribute their points. Minnesota's largest contribution comes from ages 25-29, while Oklahoma City's comes from players under 25.
 - Breaking team totals down by player reveals the individual contributors behind each team's scoring output.
 - High average three-point percentages appear across several positions, including centers and power forwards.
 - Totals and averages answer different questions. Playing time and shooting attempts provide important context for interpreting the patterns shown.
