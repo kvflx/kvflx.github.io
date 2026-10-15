@@ -8,6 +8,10 @@
 <img src="images/r project port header final.png?raw=true"/>
 In this project, I analyzed an HR Dataset from IBM to find relationships between attrition and various other factors such as age, experience, and more, using statistics along with linear and logistic regression in R.
 
+#### [Beyond the Scoreboard: NBA Player and Team Performance - Tableau](/NBA-Project)
+<img src="images/nba-project-header.png?raw=true"/>
+In this project, I used Tableau to explore NBA player and team performance, examining scoring, assists, age groups, and three-point shooting. Check out the patterns I uncovered!
+
 #### [The Details Behind Hospital Stays: Healthcare SQL Analysis](https://www.linkedin.com/pulse/details-behind-hospital-stays-healthcare-sql-analysis-kevin-felix-jaadc/)
 <img src="images/hospital sql project header (3).png?raw=true"/>
 Using MySQL, I did some querying to answer important questions regarding patient demographics, stay durations, medical specialties, and more. Check out what I found!
@@ -21,9 +25,6 @@ This project focused on using Tableau to analyze and visualize data from the Mas
 [<img src="images/Twitter header - 1 (2).png?raw=true"/>](https://www.linkedin.com/pulse/hungry-data-its-way-kevin-felix-shttc/)
 For this project, I explored a food delivery app's dataset and found interesting insights about customer spending behaviors.
 
-#### [Beyond the Scoreboard: NBA Player and Team Performance - Tableau](/NBA-Project)
-<img src="images/nba-project-header.png?raw=true"/>
-In this project, I used Tableau to explore NBA player and team performance, examining scoring, assists, age groups, and three-point shooting. Check out the patterns I uncovered!
 
 
 
