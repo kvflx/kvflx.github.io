@@ -33,7 +33,7 @@ After looking at individual production, I explored how different age groups cont
 
 <img src="/images/nba-team-points-age.png?raw=true" alt="Stacked bar chart of NBA team points split into under-25, 25-29, and 30-plus age groups" width="100%"/>
 
-Minnesota has the highest total points in the displayed data, with players ages 25â€“29 contributing the largest portion. Oklahoma City sits at the opposite end of the chart, with most of its scoring coming from players under 25.
+Minnesota has the highest total points in the displayed data, with players ages 25-29 contributing the largest portion. Oklahoma City sits at the opposite end of the chart, with most of its scoring coming from players under 25.
 
 Other teams show different patterns. Memphis also receives a large share of its scoring from the under-25 group, while the Lakers receive the largest portion of theirs from players ages 30 and older. Teams with similar scoring totals can therefore have very different age profiles behind those totals.
 
@@ -69,8 +69,6 @@ There is an important distinction in how this chart should be interpreted: it us
 - Teams differ considerably in which age groups contribute their points. Minnesota's largest contribution comes from ages 25-29, while Oklahoma City's comes from players under 25.
 - Breaking team totals down by player reveals the individual contributors behind each team's scoring output.
 - High average three-point percentages appear across several positions, including centers and power forwards.
-- Totals and averages answer different questions. Playing time and shooting attempts provide important context for interpreting the patterns shown.
-
-This project helped me use Tableau to move between individual performance and broader team patterns. By combining multiple chart types in one story.
+- Totals and averages answer different questions. Playing time and shooting attempts provide important context for interpreting the patterns that were found.
 
 Thank you for taking the time to check out my project! You can [explore the interactive Tableau story here](https://public.tableau.com/app/profile/kevin.felix/viz/NBAStatsTableauProject/AnalysisStory). If you'd like to chat or have any questions, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/kevinfelixleyva/)!
