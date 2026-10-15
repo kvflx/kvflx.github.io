@@ -1,3 +1,4 @@
+<img src="/images/nba-project-header.png?raw=true" alt="Beyond the Scoreboard: NBA Player and Team Performance in Tableau" width="100%"/>
 # Beyond the Scoreboard: Exploring NBA Player and Team Performance in Tableau
 
 [**Explore the interactive Tableau story.**](https://public.tableau.com/app/profile/kevin.felix/viz/NBAStatsTableauProject/AnalysisStory)
