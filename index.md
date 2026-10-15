@@ -21,6 +21,10 @@ This project focused on using Tableau to analyze and visualize data from the Mas
 [<img src="images/Twitter header - 1 (2).png?raw=true"/>](https://www.linkedin.com/pulse/hungry-data-its-way-kevin-felix-shttc/)
 For this project, I explored a food delivery app's dataset and found interesting insights about customer spending behaviors.
 
+#### [Beyond the Scoreboard: NBA Player and Team Performance - Tableau](/NBA-Project)
+<img src="images/nba-project-header.png?raw=true"/>
+In this project, I used Tableau to explore NBA player and team performance, examining scoring, assists, age groups, and three-point shooting. Check out the patterns I uncovered!
+
 
 
 
